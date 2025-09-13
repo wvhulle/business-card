@@ -5,7 +5,15 @@
 #let navy = rgb("#030038")
 #let mint = rgb("#5cc49a")
 
-#v(4mm)
+
+
+#align(left)[
+  #image("willem.jpg", width: 15mm)
+]
+
+
+
+
 #grid(
   columns: (1fr, 1fr),
   column-gutter: 8mm,
@@ -18,7 +26,7 @@
     #set par(leading: 0.6em)
     #link("mailto:willemvanhulle@pm.me", "willemvanhulle@pm.me") \
     #link("tel:+32479080252", "+32 479 080 252") \
-    #link("https://www.willemvanhulle.tech", "willemvanhulle.tech") \
+    #link("https://www.willemvanhulle.tech/blog", "willemvanhulle.tech/blog") \
     Ghent, Belgium
   ],
   [
@@ -29,7 +37,6 @@
     #set text(size: 7.5pt, fill: navy)
     #set par(leading: 0.6em)
     Distributed systems \
-    Rust & Tokio \
     Formal verification \
     Railway automation \
     CI/CD & DevOps

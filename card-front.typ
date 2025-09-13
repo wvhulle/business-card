@@ -18,7 +18,7 @@
 
       #v(1.5mm)
       #set text(size: 10pt, weight: 600, fill: navy)
-      Software engineer
+      Distributed systems engineer
 
       #v(1mm)
       #rect(width: 100%, height: 1pt, fill: mint, radius: 0.5pt)
