@@ -15,7 +15,7 @@
     #set text(size: 9pt, weight: 700, fill: navy)
     Contact
     #mint-divider()
-    #v(2mm)
+
     #set text(size: 7.5pt, fill: navy)
     #set par(leading: 0.6em)
     #link("mailto:willemvanhulle@pm.me", "willemvanhulle@pm.me") \
@@ -27,7 +27,7 @@
     #set text(size: 9pt, weight: 700, fill: navy)
     Expertise
     #mint-divider()
-    #v(2mm)
+
     #set text(size: 7.5pt, fill: navy)
     #set par(leading: 0.6em)
     Distributed systems \

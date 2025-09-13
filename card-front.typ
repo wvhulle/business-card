@@ -15,17 +15,11 @@
       #set text(size: 16pt, weight: 700, fill: navy)
       Willem Vanhulle
 
-      #v(1.5mm)
+      #mint-divider()
       #set text(size: 10pt, weight: 600, fill: navy)
       Distributed systems engineer
 
-      #v(1mm)
-      #mint-divider()
 
-      #v(1mm)
-      #set text(size: 8pt, fill: navy, tracking: 0.3pt)
-      Distributed systems\ Formal methods \
-      Full-stack
     ],
   )
 ]
