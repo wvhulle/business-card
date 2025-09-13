@@ -1,9 +1,8 @@
 // Business card — Front
 // Uses logo.svg and key identity text
-#set page(width: 85mm, height: 55mm, margin: 5mm)
-#set text(font: "Fira Sans")
-#let navy = rgb("#030038")
-#let mint = rgb("#5cc49a")
+#import "business.typ": *
+
+#show: business-card
 
 // Center everything vertically and create better balance
 #place(center + horizon)[
@@ -21,7 +20,7 @@
       Distributed systems engineer
 
       #v(1mm)
-      #rect(width: 100%, height: 1pt, fill: mint, radius: 0.5pt)
+      #mint-divider()
 
       #v(1mm)
       #set text(size: 8pt, fill: navy, tracking: 0.3pt)

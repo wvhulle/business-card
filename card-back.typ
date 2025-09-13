@@ -1,18 +1,12 @@
 // Business card — Back
 // Imports logo, shows contact + focus areas
-#set page(width: 85mm, height: 55mm, margin: 5mm)
-#set text(font: "Fira Sans")
-#let navy = rgb("#030038")
-#let mint = rgb("#5cc49a")
+#import "business.typ": *
 
-
+#show: business-card
 
 #align(left)[
-  #image("willem.jpg", width: 15mm)
+  #profile-photo("willem.jpg")
 ]
-
-
-
 
 #grid(
   columns: (1fr, 1fr),
@@ -20,7 +14,7 @@
   [
     #set text(size: 9pt, weight: 700, fill: navy)
     Contact
-    #rect(width: 100%, height: 1pt, fill: mint, radius: 0.5pt)
+    #mint-divider()
     #v(2mm)
     #set text(size: 7.5pt, fill: navy)
     #set par(leading: 0.6em)
@@ -32,7 +26,7 @@
   [
     #set text(size: 9pt, weight: 700, fill: navy)
     Expertise
-    #rect(width: 100%, height: 1pt, fill: mint, radius: 0.5pt)
+    #mint-divider()
     #v(2mm)
     #set text(size: 7.5pt, fill: navy)
     #set par(leading: 0.6em)
